@@ -7,6 +7,7 @@
 
   <title>John Benjamin Cassel</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     #g_title p,
     #g_footer p,
@@ -46,11 +47,15 @@
     }
 
     body {
+      margin: 0;
+      padding: 0;
       text-align: center;
     }
 
     #container {
-      width: 718px;
+      width: 100%;
+      max-width: 820px;
+      box-sizing: border-box;
       text-align: left;
       margin: 0 auto;
     }
@@ -131,8 +136,8 @@
 
     body {
       background: #eee;
-      font-family: 'Verdana', 'Helvetica', 'Arial', sans-serif;
-      font-size: 0.85em;
+      font-family: 'Optima', 'Verdana', 'Helvetica', 'Arial', sans-serif;
+      font-size: 0.95em;
     }
 
     a {
@@ -289,6 +294,9 @@
     }
 
     #container {
+      width: 100%;
+      max-width: 820px;
+      box-sizing: border-box;
       padding: 25px 40px 10px 40px;
       border: 1px solid #ccc;
       background: #fff;
@@ -337,6 +345,41 @@
       #container {
         border-width: 0px !important;
         padding: 0 !important;
+      }
+    }
+
+    @media screen and (max-width: 760px) {
+      body {
+        text-align: left;
+      }
+
+      #container {
+        padding: 20px 15px 15px 15px;
+      }
+
+      #main-content,
+      #sidebar {
+        float: none;
+        width: auto;
+        margin: 0;
+      }
+
+      #sidebar {
+        margin-top: 1.5em;
+      }
+
+      #header,
+      #footer {
+        text-align: center;
+      }
+
+      #main-content .wrapper,
+      #sidebar .wrapper {
+        padding: 0;
+      }
+
+      #container hr {
+        margin: 1.2em 0;
       }
     }
 
@@ -434,14 +477,14 @@
               <ul>
                 <li><b>Design and planning</b>: investigating design questions of understanding, intervening, and
                   evaluating landscape and infrastructure configurations over time to promote long-term flourishing</li>
-                <li><b>Program operations</b>: changing the shape of the criteria being explored by undertaking
-                  programs pursuing sustainability objectives</li>
-                <li><b>Research support</b>: providing data models, along with operational methods, that effectively
-                  support investigations into landscape and infrastructure measurement</li>
-                <li><b>Knowledge representation</b>: capturing understanding of current and potential organisms and
-                  ecosystems</li>
                 <li><b>Enjoyment, appeal, and attention</b>: sharing the delight and importance of attending to and
-                  caring for the biological and ecological world we are a part of</li>
+                  caring for the biological, ecological, and infrastructural world we are a part of</li>
+                  <li><b>Intervention program operations</b>: changing the shape of the criteria being explored by undertaking
+                  programs pursuing broader objectives</li>
+                <li><b>Research support</b>: providing data models, along with operational methods, that effectively
+                  support investigations into landscape and infrastructure performance</li>
+                <li><b>Knowledge representation</b>: capturing understanding of current and potential organisms, ecosystems, and related stewardship infrastracture</li>
+                <li><b>Intervention Tooling</b>: improving our ability to act appropriately at scale by improving the sensing, decision, and actuation performance of our tools</li>
                 <li><b>Personal cultivation</b>: enjoying more multi-functional spaces by introducing plants and tending
                   to them</li>
               </ul>
@@ -450,7 +493,7 @@
               building great design and engineering cultures wherever I work, aiming to be open, engaged, present,
               communicative, courageous, and kind.
               <br><br>In previous academic work, I explored discovery and planning processes in risk governance,
-              engineering design, and strategic foresight. I'm still interested these topics.
+              engineering design, and strategic foresight. I'm still interested in these topics.
               <br><br>
               Outside of these interests, I enjoy reading, listening to music, podcasts, jogging, keeping up with
               friends, and just generally being here to enjoy life.
